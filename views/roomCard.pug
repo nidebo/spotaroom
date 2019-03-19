@@ -1,0 +1,13 @@
+div.roomCard-box
+    div.roomCard-content
+        img.roomCard-image(src=room.photoUrls.homecardHidpi)
+        div
+            div.roomCard-textArea
+                div.roomCard-title= room.title
+                div.roomCard-priceArea
+                    div.roomCard-price
+                        span= room.pricePerMonth
+                        span= room.currencySymbol
+            div.roomCard-buttonArea
+                div.roomCard-bookButton Book now!
+                div.roomCard-moreButton More details

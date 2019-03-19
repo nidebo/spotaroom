@@ -1,0 +1,28 @@
+.header-container {
+    color: #FFFFFF;
+    background-color: $primaryGreen;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    padding-left: 30px;
+}
+
+.header-links {
+    padding-right: 30px;
+
+    @media screen and (max-width: $breakpoint-tablet) {
+        display: none;
+    }
+}
+
+.header-link {
+    margin: 0 10px;
+}

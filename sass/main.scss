@@ -1,0 +1,17 @@
+$breakpoint-tablet: 768px;
+
+$primaryGreen: #3D8F31;
+$secondaryGreen: #146A20;
+$primaryOrange: #F09218;
+$secondaryOrange: #D07F15;
+$white: #FFFFFF;
+
+@import 'header';
+@import 'roomCard';
+
+.container {
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
